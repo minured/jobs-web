@@ -1,0 +1,18 @@
+.bottomBar {
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaeaea;
+  .tabItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    // height: 70px;
+    transition: all 300ms;
+    &.active {
+      background-color: #0077ff;
+      color: white;
+    }
+  }
+}
