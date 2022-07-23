@@ -9,7 +9,7 @@ export const tabs = [
   },
   {
     title: '企业大厅',
-    key: 'enterprise',
+    key: 'company',
   },
   {
     title: '岗位',
@@ -17,6 +17,6 @@ export const tabs = [
   },
   {
     title: '我的',
-    key: 'mySelf',
+    key: 'mine',
   },
 ]

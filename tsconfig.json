@@ -22,8 +22,10 @@
       "node_modules/@types"
     ],
     "paths": {
+      "src/*": ["src/*"],
       "@/components/*": ["src/components/*"],
       "@/pages/*": ["src/components/*"],
+      "@/stores/*": ["src/components/*"],
     }
   },
   "include": [
