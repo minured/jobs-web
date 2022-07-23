@@ -27,7 +27,7 @@
       }
     }
     .tags_row {
-      margin-bottom: 12px;
+      margin-bottom: 16px;
       .tab_item {
         font-size: 26px;
         padding: 8px 12px;
@@ -41,6 +41,7 @@
     }
     .company_row {
       display: flex;
+      align-items: center;
       img {
         width: 80px;
         height: 80px;
