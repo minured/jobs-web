@@ -1,4 +1,5 @@
 import Taro from "@tarojs/taro";
+import { UserOutline  } from 'antd-mobile-icons';
 import cn from "classnames";
 import { useContext } from "react";
 import { GlobalContext } from "src/app";
@@ -26,7 +27,8 @@ const BottomBar = () => {
           onClick={() => handleTabClick(item.key)}
         >
           <div className={styles.icon}>
-            {/* <img src={item.icon} alt=""/> */}
+          <UserOutline className={styles.icon} />
+
           </div>
           <div className={styles.text}>{item.title}</div>
         </div>

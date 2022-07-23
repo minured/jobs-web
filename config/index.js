@@ -62,6 +62,7 @@ const config = {
     '@/pages': resolve(__dirname, '..', 'src/components'),
     '@/stores': resolve(__dirname, '..', 'src/stores'),
     '@/styles': resolve(__dirname, '..', 'src/styles'),
+    '@/types': resolve(__dirname, '..', 'src/types'),
 
   },
 }

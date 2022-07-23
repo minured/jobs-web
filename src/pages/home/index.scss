@@ -1,6 +1,8 @@
 .P_home {
+  overflow: auto;
   .M_swiper {
     margin-bottom: 12px;
+    border-bottom: 1px solid #eaeaea;
     .swiper_item {
       height: 100%;
       display: flex;
