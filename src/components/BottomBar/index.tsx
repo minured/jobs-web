@@ -1,6 +1,6 @@
 import Taro from "@tarojs/taro";
 import cn from "classnames";
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { GlobalContext } from "src/app";
 import { tabs } from "./config";
 import styles from "./index.scss";
