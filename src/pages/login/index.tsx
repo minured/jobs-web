@@ -1,7 +1,26 @@
-import styles from './index.scss'
+import http from "@/utils/http";
+import { Button } from 'antd-mobile';
+import styles from './index.scss';
 
-const Login = () => {
-  return <div className={styles.loginPage}>login page</div>
+
+
+interface LoginPageProps {
+
+}
+
+const Login = (props: LoginPageProps) => {
+  const handleLogin = () => {
+    console.log('login');
+    http.get('/').then(res => {
+      console.log(res);
+    }).catch(r => {
+      console.log(r);
+      
+    })
+  }
+  return <div className={styles.loginPage}>
+    <Button onClick={handleLogin}>登陆</Button>
+  </div>
 }
 
 export default Login

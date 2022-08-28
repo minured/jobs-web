@@ -63,6 +63,7 @@ const config = {
     '@/stores': resolve(__dirname, '..', 'src/stores'),
     '@/styles': resolve(__dirname, '..', 'src/styles'),
     '@/types': resolve(__dirname, '..', 'src/types'),
+    '@/utils': resolve(__dirname, '..', 'src/utils'),
 
   },
 }
